@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Студенческое научное сообщество — путь от знаний вуза к реальным проектам и заказам компаний.">
+  <title>ПИШ — студенческое научное сообщество</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__mark">ПИШ</span>
+        <span class="logo__sub">поднаправление</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Меню" aria-expanded="false" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" data-nav>
+        <a href="#about">О нас</a>
+        <a href="#how">Как это работает</a>
+        <a href="#projects">Проекты</a>
+        <a href="#apply" class="nav__cta">Подать заявку</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Студенческое научное сообщество · НГУ
+        </p>
+        <h1 class="hero__title">
+          От теории вуза —<br>
+          <span class="gradient-text">к оплачиваемым проектам</span>
+        </h1>
+        <p class="hero__lead">
+          Мы помогаем студентам плавно и под кураторством перейти от учебных знаний
+          к реальным научным и инженерным задачам компаний — с поддержкой сильного
+          проектного сообщества и партнёров.
+        </p>
+        <div class="hero__actions">
+          <a href="#apply" class="btn btn--primary">Вступить в сообщество</a>
+          <a href="#projects" class="btn btn--ghost">Смотреть проекты</a>
+        </div>
+        <dl class="hero__stats">
+          <div>
+            <dt>Кураторство</dt>
+            <dd>на каждом этапе</dd>
+          </div>
+          <div>
+            <dt>Проекты</dt>
+            <dd>от команды и партнёров</dd>
+          </div>
+          <div>
+            <dt>Фокус</dt>
+            <dd>наука и инновации</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">О сообществе</span>
+          <h2>Мост между вузом и индустрией</h2>
+        </div>
+        <div class="about-grid">
+          <article class="card glass">
+            <div class="card__icon" aria-hidden="true">01</div>
+            <h3>Курируемый рост</h3>
+            <p>
+              Не бросаем в «глубокий конец»: каждый участник проходит путь с наставниками
+              и чёткими этапами — от идеи до результата, который можно показать работодателю.
+            </p>
+          </article>
+          <article class="card glass">
+            <div class="card__icon" aria-hidden="true">02</div>
+            <h3>Реальные заказы</h3>
+            <p>
+              Работаем с проектами нашей команды и задачами от партнёрской организации —
+              темы подбираются под уровень и интересы, с возможностью монетизации.
+            </p>
+          </article>
+          <article class="card glass">
+            <div class="card__icon" aria-hidden="true">03</div>
+            <h3>Сообщество и репутация</h3>
+            <p>
+              Опираемся на опыт сильного проектного движения: имя, связи и поддержка
+              помогают расти репутации каждого участника и всего поднаправления.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="how">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <span class="section__label">Процесс</span>
+          <h2>Как это работает</h2>
+          <p class="section__desc">
+            Прозрачный путь от заявки до участия в проекте — текст и этапы уточним после согласования.
+          </p>
+        </div>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__step">1</span>
+            <div>
+              <h3>Заявка</h3>
+              <p>Заполняете форму: рассказываете о себе, навыках и том, чем хотите заниматься.</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">2</span>
+            <div>
+              <h3>Собеседование</h3>
+              <p>Короткий разговор с координаторами — подбираем направление и формат участия.</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">3</span>
+            <div>
+              <h3>Проект</h3>
+              <p>Попадаете в команду под кураторство: задачи, дедлайны, обратная связь.</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">4</span>
+            <div>
+              <h3>Результат</h3>
+              <p>Портфолио, опыт и при возможности — оплата за выполненную работу для компании.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <span class="section__label">Портфолио</span>
+          <h2>Проекты команды</h2>
+          <p class="section__desc">
+            Сейчас на сайте — проекты-заглушки нашего костяка. Позже здесь появятся
+            все активные и завершённые работы поднаправления.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-card__tag">ML / Data</div>
+            <h3>Анализ данных для партнёра</h3>
+            <p>
+              Пример: построение пайплайна обработки и визуализации метрик для
+              прикладной задачи заказчика. <em>Текст-заглушка.</em>
+            </p>
+            <span class="project-card__status">В работе</span>
+          </article>
+          <article class="project-card">
+            <div class="project-card__tag">Web</div>
+            <h3>Внутренний портал сообщества</h3>
+            <p>
+              Пример: лендинг и инфраструктура для привлечения студентов и публикации
+              проектов. <em>Текст-заглушка.</em>
+            </p>
+            <span class="project-card__status project-card__status--done">Завершён</span>
+          </article>
+          <article class="project-card">
+            <div class="project-card__tag">R&D</div>
+            <h3>Исследовательский прототип</h3>
+            <p>
+              Пример: лабораторный стенд или PoC под научную тему с возможностью
+              коммерциализации. <em>Текст-заглушка.</em>
+            </p>
+            <span class="project-card__status">Набор в команду</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--apply" id="apply">
+      <div class="container apply-layout">
+        <div class="apply-intro">
+          <span class="section__label">Заявка</span>
+          <h2>Хочу в сообщество</h2>
+          <p>
+            Заполните форму — мы свяжемся с вами. Поля и тексты можно будет
+            изменить после утверждения с координаторами.
+          </p>
+          <ul class="apply-list">
+            <li>Ответ в течение нескольких рабочих дней</li>
+            <li>Конфиденциальность данных</li>
+            <li>Можно без опыта — важна мотивация</li>
+          </ul>
+        </div>
+        <form class="form glass" id="application-form" novalidate>
+          <div class="form__row">
+            <label for="name">ФИО <span class="req">*</span></label>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Иванов Иван Иванович">
+          </div>
+          <div class="form__row form__row--2">
+            <div>
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="name@example.com">
+            </div>
+            <div>
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__">
+            </div>
+          </div>
+          <div class="form__row form__row--2">
+            <div>
+              <label for="faculty">Факультет / направление</label>
+              <input type="text" id="faculty" name="faculty" placeholder="Например, ВМК, 2 курс">
+            </div>
+            <div>
+              <label for="interest">Интересующая область</label>
+              <select id="interest" name="interest">
+                <option value="">Выберите…</option>
+                <option value="ml">Машинное обучение / данные</option>
+                <option value="dev">Разработка ПО</option>
+                <option value="science">Фундаментальная наука</option>
+                <option value="biz">Предпринимательство / менеджмент</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__row">
+            <label for="about">О себе и мотивация <span class="req">*</span></label>
+            <textarea id="about" name="about" required rows="4" placeholder="Чем занимаетесь, что хотите получить от сообщества…"></textarea>
+          </div>
+          <div class="form__row form__check">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">Согласен на обработку персональных данных для рассмотрения заявки <span class="req">*</span></label>
+          </div>
+          <p class="form__error" id="form-error" hidden></p>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__mark">ПИШ</span>
+        <p>Поднаправление студенческого научного сообщества.<br>Тексты и символика НГУ — после согласования.</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#about">О нас</a>
+        <a href="#projects">Проекты</a>
+        <a href="#apply">Заявка</a>
+      </nav>
+      <p class="footer__copy">© 2026 · Заглушка. Хостинг и домен — у организаторов.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+    <strong>Заявка отправлена</strong>
+    <span>Мы свяжемся с вами по указанному email.</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
